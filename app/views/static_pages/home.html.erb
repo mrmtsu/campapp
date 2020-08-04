@@ -1,15 +1,12 @@
-<% provide(:title, "Home") %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= yield(:title) %> | Camp App</title>
-  </head>
-  <body>
-    <h1>Sample App</h1>
-    <p>
-      This is the home page for the
-      <a href="">Ruby on Rails</a>
-      sample application.
-    </p>
-  </body>
-</html>
+<div class="container-top">
+  <%= image_tag("camp.jpg", width: "100%") %>
+</div>
+<div class="container-main">
+  <h1>Sample App</h1>
+  <p>
+    This is the home page for the
+    <a href="">Ruby on Rails</a>
+    sample application.
+  </p>
+  <%= link_to "Sign up now!", signup_path %>
+</div>
