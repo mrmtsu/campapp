@@ -1,0 +1,82 @@
+/* universal */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Helvetica, Arial, "Noto Sans", 游ゴシック体,
+    "Yu Gothic", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",
+    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Verdana, sans-serif;
+  color: #000;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: -0.001em;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  list-style-position: outside;
+  font-family: inherit;
+  list-style: none;
+  & a {
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 0.075em;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.siteHeader {
+  padding: 0 50px 0 290px;
+  width: 210px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: calc(100vh - 90px);
+  z-index: 99;
+}
+
+#logo {
+  color: black;
+}
+
+/* container */
+
+.wrapper {
+  padding-left: 290px;
+}
+
+.container-top img {
+  height: 100vh;
+}
+
+.container-main {
+  background-color: aqua;
+}
